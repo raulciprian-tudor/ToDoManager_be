@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|e:\\personal work\\todomanager_be\\todomanagerbeapp\\todomanagerbe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|solutionrelative:todomanagerbe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|e:\\personal work\\todomanager_be\\todomanagerbeapp\\todomanagerbe\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|solutionrelative:todomanagerbe\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|e:\\personal work\\todomanager_be\\todomanagerbeapp\\todomanagerbe\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|solutionrelative:todomanagerbe\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|e:\\personal work\\todomanager_be\\todomanagerbeapp\\todomanagerbe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|solutionrelative:todomanagerbe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|e:\\personal work\\todomanager_be\\todomanagerbeapp\\todomanagerbe\\entities\\booksmongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BBE182-7424-40DB-BEAD-03C3D0CA1048}|TodoManagerBe\\TodoManagerBe.csproj|solutionrelative:todomanagerbe\\entities\\booksmongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1580,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\appsettings.json",
+              "RelativeDocumentMoniker": "TodoManagerBe\\appsettings.json",
+              "ToolTip": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\appsettings.json",
+              "RelativeToolTip": "TodoManagerBe\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T18:50:12.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "TodoManagerBe\\Controllers\\BooksController.cs",
+              "ToolTip": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "TodoManagerBe\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:43:32.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksService.cs",
+              "DocumentMoniker": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Services\\BooksService.cs",
+              "RelativeDocumentMoniker": "TodoManagerBe\\Services\\BooksService.cs",
+              "ToolTip": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Services\\BooksService.cs",
+              "RelativeToolTip": "TodoManagerBe\\Services\\BooksService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:40:01.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Program.cs",
+              "RelativeDocumentMoniker": "TodoManagerBe\\Program.cs",
+              "ToolTip": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Program.cs",
+              "RelativeToolTip": "TodoManagerBe\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:37:30.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksMongo.cs",
+              "DocumentMoniker": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Entities\\BooksMongo.cs",
+              "RelativeDocumentMoniker": "TodoManagerBe\\Entities\\BooksMongo.cs",
+              "ToolTip": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Entities\\BooksMongo.cs",
+              "RelativeToolTip": "TodoManagerBe\\Entities\\BooksMongo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:35:40.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 705,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
