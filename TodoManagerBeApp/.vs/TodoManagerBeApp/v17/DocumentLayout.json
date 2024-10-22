@@ -50,8 +50,7 @@
               "RelativeToolTip": "TodoManagerBe\\Controllers\\TodoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T06:37:10.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T06:37:10.085Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "TodoManagerBe\\Entities\\TodoMongo.cs",
               "ToolTip": "E:\\Personal Work\\ToDoManager_be\\TodoManagerBeApp\\TodoManagerBe\\Entities\\TodoMongo.cs",
               "RelativeToolTip": "TodoManagerBe\\Entities\\TodoMongo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T06:33:10.011Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "TodoManagerBe\\Services\\TodoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T06:31:27.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T06:31:27.005Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "TodoManagerBe\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T18:37:30.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T18:37:30.336Z"
             }
           ]
         },
