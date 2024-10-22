@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "TodoManagerBe.Controllers.BooksController",
+    "ContainingType": "TodoManagerBe.Controllers.TodoController",
     "Method": "Get",
-    "RelativePath": "api/Books",
+    "RelativePath": "api/Todo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[TodoManagerBe.Entities.BooksMongo, TodoManagerBe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[TodoManagerBe.Entities.TodoMongo, TodoManagerBe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,61 +20,19 @@
     ]
   },
   {
-    "ContainingType": "TodoManagerBe.Controllers.BooksController",
+    "ContainingType": "TodoManagerBe.Controllers.TodoController",
     "Method": "Post",
-    "RelativePath": "api/Books",
+    "RelativePath": "api/Todo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newBook",
-        "Type": "TodoManagerBe.Entities.BooksMongo",
+        "Name": "newItem",
+        "Type": "TodoManagerBe.Entities.TodoMongo",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TodoManagerBe.Controllers.TodoController",
-    "Method": "Get",
-    "RelativePath": "api/Todo",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TodoManagerBe.Entities.TodoItemEntity, TodoManagerBe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "TodoManagerBe.Controllers.TodoController",
-    "Method": "Post",
-    "RelativePath": "api/Todo",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "body",
-        "Type": "TodoManagerBe.Entities.TodoItemEntity",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
   }
 ]

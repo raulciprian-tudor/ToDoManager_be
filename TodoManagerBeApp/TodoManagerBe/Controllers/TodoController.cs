@@ -8,31 +8,21 @@ namespace TodoManagerBe.Controllers
     [ApiController]
     public class TodoController : ControllerBase
     {
-        // GET: api/Todo
+        private readonly TodoService _todoService;
+
+        public TodoController(TodoService todoService) =>
+            _todoService = todoService;
+
         [HttpGet]
-        public IEnumerable<TodoItemEntity> Get()
-        {
-            var data = new TodoService().GetItems();
-            return data;
-        }
+        public async Task<List<TodoMongo>> Get() => await _todoService.GetAsync();
 
-        // POST api/Todo
+
         [HttpPost]
-        public void Post([FromBody] TodoItemEntity body)
+        public async Task<IActionResult> Post(TodoMongo newItem)
         {
-            var data = new TodoService().CreateItem(body);
+            await _todoService.CreateAsync(newItem);
+            return CreatedAtAction(nameof(Get), new { id = newItem.Id }, newItem);
         }
 
-        //// PUT api/Todo/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/Todo/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

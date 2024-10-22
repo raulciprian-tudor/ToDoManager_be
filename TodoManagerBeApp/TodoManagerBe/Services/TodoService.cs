@@ -1,45 +1,21 @@
-﻿using TodoManagerBe.Entities;
+﻿using Microsoft.Extensions.Options;
+using MongoDB.Driver;
+using TodoManagerBe.Entities;
 
 namespace TodoManagerBe.Services
 {
     public class TodoService
     {
-        public TodoService() { }
-
-        // get all todo items
-        public IEnumerable<TodoItemEntity> GetItems()
+        private readonly IMongoCollection<TodoMongo> _todosCollection;
+        public TodoService(
+            IOptions<MongoSettings> bookStoreDatabaseSettings)
         {
-            return new List<TodoItemEntity>
-            {
-                new TodoItemEntity
-                {
-                    Id = "1",
-                    Title = "Todo 1",
-                    Description = "Description 1",
-                    IsCompleted = false
-                },
-                new TodoItemEntity
-                {
-                    Id = "2",
-                    Title = "Todo 2",
-                    Description = "Description 2",
-                    IsCompleted = true
-                }
-            };
+            var mongoClient = new MongoClient(bookStoreDatabaseSettings.Value.ConnectionString);
+            var mongoDatabase = mongoClient.GetDatabase(bookStoreDatabaseSettings.Value.DatabaseName);
+            _todosCollection = mongoDatabase.GetCollection<TodoMongo>(bookStoreDatabaseSettings.Value.BooksCollectionName);
         }
 
-        public IEnumerable<TodoItemEntity> CreateItem(TodoItemEntity body) 
-        {
-            return new List<TodoItemEntity>
-            {
-                new TodoItemEntity
-                {
-                    Id = body.Id,
-                    Title = body.Title,
-                    Description = body.Description,
-                    IsCompleted = body.IsCompleted
-                }
-            };
-        }
+        public async Task<List<TodoMongo>> GetAsync() => await _todosCollection.Find(_ => true).ToListAsync();
+        public async Task CreateAsync(TodoMongo newItem) => await _todosCollection.InsertOneAsync(newItem);
     }
 }

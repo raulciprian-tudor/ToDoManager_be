@@ -20,7 +20,7 @@ builder.Services.AddCors(options => // add cors
 });
 builder.Services.Configure<MongoSettings>(
     builder.Configuration.GetSection("MongoDB"));
-builder.Services.AddSingleton<BooksService>(); // add books dependency injection
+builder.Services.AddSingleton<TodoService>(); // add todo dependency injection
 // end of dependency injection
 
 var app = builder.Build(); // build app
