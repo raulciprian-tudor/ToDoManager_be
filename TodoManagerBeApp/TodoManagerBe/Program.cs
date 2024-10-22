@@ -15,7 +15,9 @@ builder.Services.AddCors(options => // add cors
         builder =>
         {
             builder.WithOrigins("http://localhost:4200",
-                                "https://localhost:4200");
+                                "https://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
         });
 });
 builder.Services.Configure<MongoSettings>(

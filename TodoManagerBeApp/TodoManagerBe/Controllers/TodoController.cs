@@ -24,5 +24,18 @@ namespace TodoManagerBe.Controllers
             return CreatedAtAction(nameof(Get), new { id = newItem.Id }, newItem);
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(string id)
+        {
+            await _todoService.DeleteAsync(id);
+            return Ok(200);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(string id, TodoMongo todo)
+        {
+            await _todoService.UpdateAsync(id, todo);
+            return Ok(200);
+        }
     }
 }

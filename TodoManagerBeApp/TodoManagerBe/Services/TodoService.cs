@@ -17,5 +17,7 @@ namespace TodoManagerBe.Services
 
         public async Task<List<TodoMongo>> GetAsync() => await _todosCollection.Find(_ => true).ToListAsync();
         public async Task CreateAsync(TodoMongo newItem) => await _todosCollection.InsertOneAsync(newItem);
+        public async Task DeleteAsync(string id) => await _todosCollection.DeleteOneAsync(todo => todo.Id == id);
+        public async Task UpdateAsync(string id, TodoMongo todo) => await _todosCollection.ReplaceOneAsync(todo => todo.Id == id, todo);
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoManagerBe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+932ab976565dfedf351b0469d2c53b088fda1170")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+665049776e6c3372cbabfcaccb830655cdf75656")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoManagerBe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoManagerBe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
