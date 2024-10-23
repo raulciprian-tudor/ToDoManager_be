@@ -12,5 +12,7 @@ namespace TodoManagerBe.Entities
         public string? Title { get; set; }
         [BsonElement("IsCompleted")]
         public bool IsCompleted { get; set; }
+        [BsonElement("Priority")]
+        public double? Priority { get; set; }
     }
 }
