@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using TodoManagerBe.Entities;
 using TodoManagerBe.Services;
 
@@ -23,6 +26,27 @@ builder.Services.AddCors(options => // add cors
 builder.Services.Configure<MongoSettings>(
     builder.Configuration.GetSection("MongoDB"));
 builder.Services.AddSingleton<TodoService>(); // add todo dependency injection
+builder.Services.AddAuthentication(cfg => // jwt authentication configuration
+{
+    cfg.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; // default authentication scheme
+    cfg.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; // default challenge scheme
+    cfg.DefaultScheme = JwtBearerDefaults.AuthenticationScheme; // default scheme
+}).AddJwtBearer(x => // add jwt bearer
+{
+    x.RequireHttpsMetadata = false; // require https metadata
+    x.SaveToken = false; // save token
+    x.TokenValidationParameters = new TokenValidationParameters // token validation parameters
+    {
+        ValidateIssuerSigningKey = true, // validate issuer signing key
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8
+            .GetBytes("this_is_my_dummy_jwt_secret") // get jwt secret
+        ),
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ClockSkew = TimeSpan.Zero
+    };
+});
 // end of dependency injection
 
 var app = builder.Build(); // build app

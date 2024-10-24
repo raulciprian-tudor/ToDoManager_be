@@ -44,3 +44,11 @@ E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\
 E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Personal Work\ToDoManager_be\TodoManagerBeApp\TodoManagerBe\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
